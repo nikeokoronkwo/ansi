@@ -7,4 +7,6 @@ include_directories("${CMAKE_SOURCE_DIR}/include")
 
 add_subdirectory(lib)
 add_subdirectory(include)
-add_subdirectory(examples)
+if(CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+    add_subdirectory(examples)
+endif()
