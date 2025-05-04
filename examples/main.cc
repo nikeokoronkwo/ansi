@@ -1,5 +1,5 @@
 #include <iostream>
 
-#include "ansi.h"
+#include "ansi/ansi.h"
 
 int main() { std::cout << red("Hello World") << std::endl; }

@@ -1,11 +1,11 @@
-#include "format.hpp"
+#include "ansi/ansi.h"
 
 #include <cmath>
 #include <cstdio>
 
-#include "base.h"
-#include "colours.h"
-#include "custom.h"
+#include "ansi/base.h"
+#include "ansi/colours.h"
+#include "ansi/custom.h"
 
 namespace ansi {
 Ansi rgb(int r, int g, int b) {
